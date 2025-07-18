@@ -1,5 +1,11 @@
 # Proyecto Web Full Stack - Trabajo Grupal #3
 
+## Miembros del equipo
+
+* Jafet Rojas
+* Jose Ugalde
+* Oscar Umaña
+
 ## Tecnologías utilizadas
 
 * Backend: FastAPI + SQLAlchemy + SQLite (o MySQL)
