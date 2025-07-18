@@ -5,24 +5,6 @@
 * Backend: FastAPI + SQLAlchemy + SQLite (o MySQL)
 * Frontend: HTML, CSS, JavaScript Vanilla (Fetch API)
 * Base de datos: SQLite (por defecto) o MySQL
-* Control de versiones: Git y GitHub
-
-## Estructura del proyecto
-
-```
-Trabajo3Grupo/
-├── backend/
-│   ├── main.py
-│   ├── formularios.db (generado automáticamente)
-│   ├── Script Sql Mysql.sql
-│
-├── frontend/
-│   ├── index.html
-│   ├── styles.css
-│
-├── .gitignore
-├── README.md
-```
 
 ## Pasos para ejecutar
 
@@ -31,7 +13,7 @@ Trabajo3Grupo/
 1. Instalar dependencias:
 
 ```bash
-pip install fastapi uvicorn sqlalchemy
+pip install -r requirements.txt
 ```
 
 2. Ejecutar el servidor:
@@ -62,30 +44,4 @@ python -m http.server 5500
 http://localhost:5500/index.html
 ```
 
-### Git
-
-1. Agregar todo y hacer commit:
-
-```bash
-git add .
-git commit -m "Estructura final backend y frontend funcionando"
-```
-
-2. Subir a GitHub:
-
-```bash
-git push
-```
-
-## Notas
-
-* Configurar CORS y variables de entorno si se despliega en producción.
-* Cambiar SQLite a MySQL si se requiere más robustez.
-* Recordar agregar un archivo .gitignore con:
-
-```
-__pycache__/
-*.db
-.env
-```
 
